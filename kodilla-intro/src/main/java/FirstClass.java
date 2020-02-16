@@ -7,6 +7,8 @@ public class FirstClass {
         notebook.checkYear();
         notebook.findYear();
         notebook.chooseYear();
+        notebook.checkWeightAndYear();
+        notebook.checkPriceAndYear();
 
         Notebook heavyNotebook = new Notebook(1100, 1490, 2019);
         System.out.println(heavyNotebook.weight + " " + heavyNotebook.price + " " + heavyNotebook.year);
@@ -31,6 +33,8 @@ public class FirstClass {
         workNotebook.checkYear();
         workNotebook.findYear();
         workNotebook.chooseYear();
+        workNotebook.checkWeightAndYear();
+        workNotebook.checkPriceAndYear();
 
         Notebook easyNotebook = new Notebook(490, 3600,2019);
         System.out.println(easyNotebook.weight + " " + easyNotebook.price + " " + easyNotebook.year);
@@ -39,5 +43,6 @@ public class FirstClass {
         easyNotebook.checkYear();
         easyNotebook.findYear();
         easyNotebook.chooseYear();
+        easyNotebook.checkWeightAndYear();
     }
 }

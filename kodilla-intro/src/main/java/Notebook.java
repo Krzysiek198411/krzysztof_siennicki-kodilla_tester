@@ -58,4 +58,21 @@ public class Notebook {
             System.out.println("This notebook is for begginers.");
         }
     }
+
+    public void checkWeightAndYear() {
+        if (this.weight < 500 && this.year > 2018) {
+            System.out.println("You should buy this notebook. It`s the best choice.");
+        } else if (this.weight > 500 && this.year > 2014) {
+            System.out.println("This notebook is of average quality.");
+        } else {
+            System.out.println("This notebook is not a good choice.");
+        }
+    }
+    public void checkPriceAndYear() {
+        if (this.price < 800 && this.year < 2005) {
+            System.out.println("The price is very good but it`s a very old notebook!");
+        } else {
+            System.out.println("This notebook is more expensive but it`s quite new!");
+        }
+    }
 }
